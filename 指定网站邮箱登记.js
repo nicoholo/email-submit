@@ -12,7 +12,7 @@ const puppeteer = require('puppeteer');
 
   // 找到邮箱输入框并输入邮箱
   const emailInput = await page.$('#standard-name');  // 根据实际情况找到相应的输入框元素
-  const email = 'tinerduan@gmail.com';  // 替换为你想要输入的邮箱地址
+  const email = 'xxxxxxxx@gmail.com';  // 替换为你想要输入的邮箱地址
   await emailInput.type(email);
 
   // 提交表单
